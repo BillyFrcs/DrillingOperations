@@ -12,8 +12,8 @@ In this summary, present the results of various hydraulics calculations performe
 | ANNULAR INTERVAL #1 (8"5/8 HOLE - 7" DRILL COLLARS)      | 16.65  | 1.14  |
 | ANNULAR INTERVAL #2 (8"5/8 HOLE - 4"1/2 DRILL PIPE)      | 15.34  | 1.05  |
 | ANNULAR INTERVAL #3 (9"5/8 CASING - 4"1/2 DRILL PIPE)    | 178.44 | 12.30 |
-
+                                                                      
 <p>
 Surface Pressure = 3000.00 psi </br>
-Bit Pressure Drop = ... psi
+Bit Pressure Drop = 630.27 psi 43.42 bar
 </p>
