@@ -36,7 +36,6 @@ Velocity: Vp
 Effective viscosity =
 μep (cP)
 = 100 * Kp * {(1.6 * Vp)/D)}(np-1) * {(3np + 1)/(4 * np)}np
-= 100 * 3.21 * {(1.6 * 560.23)/3.826)(0.64-1) * {(3 * 0.64 + 1/(4 * 0.64) 0.64
 = ... cP
 '''
 
@@ -44,21 +43,19 @@ ft = 24.48 * 335 / math.pow(3.826, 2) # or 3.826 ** 2
 
 m = feetToMeters(ft)
 
-# Ev = 100 * 3.21 * math.pow((1.6 * 560.23) / 3.826, (0.64 - 1)) * math.pow((3 * 0.64 + 1) / (4 * 0.64), 0.64) # incorrect formula
+Ev = 100 * 3.21 * ((math.pow((1.6 * 560.23) / 3.826, 0.64 - 1))) * math.pow((3 * 0.64 + 1) / (4 * 0.64), 0.64) # corrected formula
 
-Ev = 100 * 3.21 * math.pow((1.6 * 560.23) / 3.826, 0.64 - 1) * math.pow((3 * 0.64) + 1 / (4 * 0.64), 0.64) # corrected formula
+# Ev = 100 * 3.21 * ((1.6 * 560.23) / 3.826) ** (0.64 - 1) * ((3 * 0.64 + 1) / (4 * 0.64)) ** 0.64 # conventional formula
 
-# Ev = 100 * 3.21 * ((1.6 * 560.23) / 3.826) ** (0.64 - 1) * (3 * 0.64 + (1 / (4 * 0.64))) ** 0.64 # conventional formula
+print('Surface Connection:')
+print(f"Velocity = {ft} ft/min {m} m/min") # 560.23
 
-print('Surface Connection = ')
-print(f"{ft} ft/min {m} m/min") # 560.23
-
-print(f"Effective viscosity = {Ev} cP") # 76.95
+print(f"Effective Viscosity = {Ev} cP") # 76.94
 
 '''
 Reynolds Number:
 NRep = (15.467 * Vp*D*ρ) / μep
-= (15.467 * 560.23 * 3.826 * 12.8) / 48.97
+--> Reynolds number ? 2100;
 '''
 NRep = (15.467 * 560.23 * 3.826 * 12.8) / 48.97
 
@@ -79,8 +76,7 @@ print(f"Friction Factor = {fp}")
 Pressure loss:
 Pp (psi) = ((fp * Vp2 * ρ) / (92916 * D)) * Lm
 '''
-
-Pp_psi = ((0.006025 * math.pow(560.23, 2)) * 12.8 / (92916 * 3.826)) * 610
+Pp_psi = ((0.006025 * math.pow(560.23, 2) * 12.8) / (92916 * 3.826)) * 610
 
 bar = psiToBar(Pp_psi)
 
