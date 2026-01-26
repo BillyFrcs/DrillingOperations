@@ -1,19 +1,117 @@
 <h1 align="center">Hydraulics Calculations Summary</h1>
 
-In this summary, present the results of various hydraulics calculations performed for a drilling operation. The calculations include pressure drops in different sections of the drilling system, such as the surface line, drill string intervals, and annular intervals.
+In this summary, present the results of various American Petroleum Institute (API) hydraulics calculations performed for a drilling operation. The calculations include pressure drops in different sections of the drilling system, such as the surface line, drill string intervals, and annular intervals.
+
+<h3 align="">API Hydraulics Equations</h3>
+
+<b>1. SURFACE LINE PRESSURE DROP</b>
+<p>
+Pipe "n" and "K" values: <br>
+Np = 0.64 <br>
+Kp = 3.21
+</p>
+
+<b>Surface Connection:</b> <br>
+<p>
+Velocity = 560.22 ft/min 170.75 m/min <br>
+Effective Viscosity = 48.97 cP <br>
+Reynolds Number = 8665.57 <br>
+Friction Factor = 0.001607 <br>
+Pressure Loss = 41.53 psi 2.86 bar
+</p>
+
+<b>2. DRILL PIPE PRESSURE DROP</b>
+<p>
+Pipe "n" and "K" values: <br>
+Np = 0.64 <br>
+Kp = 3.21
+</p>
+
+<b>DRILL STRING INTERVAL #1 (DRILL PIPE):</b>
+<p>
+Velocity = 560.22 ft/min 170.75 m/min <br>
+Effective viscosity = 48.97 cP <br>
+Reynolds Number = 8665.57 <br>
+Friction Factor = 0.001607 <br>
+Pressure Loss = 0.79 psi 0.05 bar
+</p>
+
+<b>3. DRILL COLLAR PRESSURE DROP</b>
+<p>
+Pipe "n" and "K" values: <br>
+Np = 0.64 <br>
+Kp = 3.21
+</p>
+
+<b>DRILL STRING INTERVAL #2 (DRILL COLLARS):</b>
+<p>
+Velocity = 1619.91 ft/min 493.74 m/min <br>
+Effective viscosity = 27.60 cP <br>
+Reynolds Number = 26144.50 <br>
+Friction Factor = 0.004434 <br>
+Pressure Loss = 377.52 psi 26.02 bar
+</p>
+
+<b>4. DC – HOLE ANNULAR PRESSURE DROP</b>
+<p>
+Pipe "n" and "K" values: <br>
+Np = 0.27 <br>
+Kp = 26.10
+</p>
+
+<b>ANNULAR INTERVAL #1 (8"5/8 HOLE - 7" DRILL COLLARS):</b>
+<p>
+Velocity = 322.98 ft/min 98.44 m/min <br>
+Effective viscosity = 35.48 cP <br>
+Reynolds Number = 2927.88 <br>
+Friction Factor = 0.004833 <br>
+Pressure Loss = 16.65 psi 1.14 bar
+</p>
+
+<b>5. DP – HOLE ANNULAR PRESSURE DROP</b>
+<p>
+Pipe "n" and "K" values: <br>
+Np = 0.27 <br>
+Kp = 26.10
+</p>
+
+<b>ANNULAR INTERVAL #2 (8"5/8 HOLE - 4"1/2 DRILL PIPE):</b>
+<p>
+Velocity = 151.47 ft/min 46.16 m/min <br>
+Effective viscosity = 120.71 cP <br>
+Reynolds Number = 2928.69 <br>
+Friction Factor = 0.023420 <br>
+Pressure Loss = 15.34 psi 1.05 bar
+</p>
+
+<b>6. DP – CASING ANNULAR PRESSURE DROP</b>
+<p>
+Pipe "n" and "K" values: <br>
+Np = 0.27 <br>
+Kp = 26.10
+</p>
+
+<b>ANNULAR INTERVAL #3 (9"5/8 CASING - 4"1/2 DRILL PIPE): Casing ID = 8.835"</b>
+<p>
+Velocity = 141.86 ft/min 43.24 m/min <br>
+Effective viscosity = 131.22 cP <br>
+Reynolds Number = 927.04 <br>
+Friction Factor = 0.025869 <br>
+Pressure Loss = 178.44 psi 12.30 bar
+</p>
 
 <h3 align="">Pressure Losses</h3>
 
-| Part Name                                                | PSI    | BAR   |
-| :------------------------------------------------------- |:------:|:-----:|
-| Surface Line Pressure Drop                               | 41.53  | 2.86  |
-| DRILL STRING INTERVAL #1 (DRILL PIPE)                    | 0.79   | 0.05  |
-| DRILL STRING INTERVAL #2 (DRILL COLLARS)                 | 377.52 | 26.02 |
-| ANNULAR INTERVAL #1 (8"5/8 HOLE - 7" DRILL COLLARS)      | 16.65  | 1.14  |
-| ANNULAR INTERVAL #2 (8"5/8 HOLE - 4"1/2 DRILL PIPE)      | 15.34  | 1.05  |
-| ANNULAR INTERVAL #3 (9"5/8 CASING - 4"1/2 DRILL PIPE)    | 178.44 | 12.30 |
+| Part Name                                                | PSI       | BAR      |
+| :------------------------------------------------------- |:---------:|:--------:|
+| Surface Line Pressure Drop                               | 41.53     | 2.86     |
+| DRILL STRING INTERVAL #1 (DRILL PIPE)                    | 0.79      | 0.05     |
+| DRILL STRING INTERVAL #2 (DRILL COLLARS)                 | 377.52    | 26.02    |
+| ANNULAR INTERVAL #1 (8"5/8 HOLE - 7" DRILL COLLARS)      | 16659.27  | 1148.61  |
+| ANNULAR INTERVAL #2 (8"5/8 HOLE - 4"1/2 DRILL PIPE)      | 15342.69  | 1057.83  |
+| ANNULAR INTERVAL #3 (9"5/8 CASING - 4"1/2 DRILL PIPE)    | 178446.12 | 12303.40 |
                                                                       
 <p>
 Surface Pressure = 3000.00 psi </br>
-Bit Pressure Drop = 630.27 psi 43.42 bar
+Bit Pressure Drop = 630.27 psi 43.42 bar -> low || 210867.91 psi 14538.77 bar -> high
 </p>
