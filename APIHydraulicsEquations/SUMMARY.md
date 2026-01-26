@@ -4,6 +4,49 @@ In this summary, present the results of various American Petroleum Institute (AP
 
 <h3 align="">API Hydraulics Equations</h3>
 
+<b>0. WELL DESCRIPTIONS</b>
+
+Surface connections: Case 3 <br>
+ID = 4.276 inch - Length = 100 ft <br>
+
+DP - 4"1/2 16.6 lb/ft, ID = 3.826 inch <br>
+Length = 11.641 ft <br>
+
+Annular 9"5/8 x 4"1/2 DP <br>
+Length = 10.396 ft <br>
+
+9"5/8 @ 10.396 ft <br>
+ID = 8.535 inch <br>
+
+Annular hole x 4"1/2 DP <br>
+Length = 855 ft <br>
+
+Drill collars: 7" x 2"1/4; <br>
+Length = 390 ft <br>
+
+Annular hole x 7” DC <br>
+Length = 390 ft <br>
+
+MD/TVD @ 12.031 ft <br>
+
+Bit/Hole Size = 8 5/8 inch
+
+<b>MUD DATA</b>
+|                   |               |
+|:-----------------:|:-------------:|
+| MW                | 12.8 ppg      |
+| FV                | 48 sec/qt     |
+| PV                | 19 cP         |
+| YP                | 15 lb/100 ft2 |
+| Initial Gel = Θ3  | 8 lb/100 ft2  |
+| Flow Rate         | 335 gpm       |
+
+Θ300 = PV + YP = 34 <br>
+Θ600 = Θ300 + PV = 34 + 19 <br>
+Θ100 = Θ300 – (2*PV/3) = 34 - 12.6 = 21.4
+
+<p>API annular hydraulics formulae use the 100-RPM VG meter reading. If six-speed mud viscometer data is available, use the 100-RPM reading</p>
+
 <b>1. SURFACE LINE PRESSURE DROP</b>
 <p>
 Pipe "n" and "K" values: <br>
