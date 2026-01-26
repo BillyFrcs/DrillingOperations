@@ -145,14 +145,15 @@ Pressure Loss = 178.44 psi 12.30 bar || 178446.12 psi 12303.40 bar
 
 <h3 align="">Pressure Losses</h3>
 
-| Part Name                                                | PSI       | BAR      |
-| :------------------------------------------------------- |:---------:|:--------:|
-| Surface Line Pressure Drop                               | 41.53     | 2.86     |
-| DRILL STRING INTERVAL #1 (DRILL PIPE)                    | 0.79      | 0.05     |
-| DRILL STRING INTERVAL #2 (DRILL COLLARS)                 | 377.52    | 26.02    |
-| ANNULAR INTERVAL #1 (8"5/8 HOLE - 7" DRILL COLLARS)      | 16659.27  | 1148.61  |
-| ANNULAR INTERVAL #2 (8"5/8 HOLE - 4"1/2 DRILL PIPE)      | 15342.69  | 1057.83  |
-| ANNULAR INTERVAL #3 (9"5/8 CASING - 4"1/2 DRILL PIPE)    | 178446.12 | 12303.40 |
+| Part Name                                             | PSI              | BAR             |
+| :---------------------------------------------------- |:----------------:|:---------------:|
+| Surface Line Pressure Drop                            | 41.53            | 2.86            |
+| DRILL STRING INTERVAL #1 (DRILL PIPE)                 | 0.79             | 0.05            |
+| DRILL STRING INTERVAL #2 (DRILL COLLARS)              | 377.52           | 26.02           |
+| ANNULAR INTERVAL #1 (8"5/8 HOLE - 7" DRILL COLLARS)   | 16659.27         | 1148.61         |
+| ANNULAR INTERVAL #2 (8"5/8 HOLE - 4"1/2 DRILL PIPE)   | 15342.69         | 1057.83         |
+| ANNULAR INTERVAL #3 (9"5/8 CASING - 4"1/2 DRILL PIPE) | 178446.12        | 12303.40        |
+| <b>TOTAL</b>                                          | <b>210867.91</b> | <b>14538.77</b> |
                                                                       
 <p>
 Surface Pressure = 3000.00 psi </br>
