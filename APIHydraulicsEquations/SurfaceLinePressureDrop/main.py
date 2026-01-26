@@ -63,10 +63,10 @@ print(f"Reynolds Number = {NRep}")
 
 ''' 
 Friction Factor:
-fp = {(log n + 3.93)/50} / [Nrep]{(1.75-log np)/7)}
+fp = {(log n + 3.93)/50} / [NRep]{(1.75-log np)/7)}
 '''
 # issue
-fp = ((math.log10(0.64) + 3.93) / 50) / math.pow(8.667, (1.75 - (math.log10(0.64)) / 7))
+fp = ((math.log10(0.64) + 3.93) / 50) / math.pow(8.667, 1.75 - math.log10(0.64) / 7)
 
 # fp = (((math.log10(0.64)) + 3.93) / 50) / 8.667 ** ((1.75 - math.log10(0.64)) / 7)
 
