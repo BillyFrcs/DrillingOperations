@@ -42,7 +42,7 @@ Bit/Hole Size = 8 5/8 inch
 | Flow Rate         | 335 gpm       |
 
 Θ300 = PV + YP = 34 <br>
-Θ600 = Θ300 + PV = 34 + 19 <br>
+Θ600 = Θ300 + PV = 34 + 19 = 53 <br>
 Θ100 = Θ300 – (2*PV/3) = 34 - 12.6 = 21.4
 
 <p>API annular hydraulics formulae use the 100-RPM VG meter reading. If six-speed mud viscometer data is available, use the 100-RPM reading</p>
