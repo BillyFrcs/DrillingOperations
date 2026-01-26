@@ -6,6 +6,7 @@ def feetToMeters(feet):
 
 def psiToBar(psi):
     return psi / 14.5038
+    # return psi * 0.0689476
 
 print ("DP – CASING ANNULAR PRESSURE DROP") 
 
