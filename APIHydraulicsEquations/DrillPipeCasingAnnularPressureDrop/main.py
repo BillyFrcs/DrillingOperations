@@ -52,7 +52,7 @@ print(f"Reynolds number = {NRea}")
 Friction factor:
 fa = 24 / NRea
 '''
-fa = 24 / 927.75
+fa = 24 / 927.75 # 927.04
 
 print(f"Friction factor = {fa}")
 
