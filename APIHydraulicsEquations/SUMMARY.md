@@ -65,7 +65,7 @@ Velocity = 322.98 ft/min 98.44 m/min <br>
 Effective viscosity = 35.48 cP <br>
 Reynolds Number = 2927.88 <br>
 Friction Factor = 0.004833 <br>
-Pressure Loss = 16.65 psi 1.14 bar
+Pressure Loss = 16.65 psi 1.14 bar || 16659.27 psi 1148.61 bar
 </p>
 
 <b>5. DP – HOLE ANNULAR PRESSURE DROP</b>
@@ -81,7 +81,7 @@ Velocity = 151.47 ft/min 46.16 m/min <br>
 Effective viscosity = 120.71 cP <br>
 Reynolds Number = 2928.69 <br>
 Friction Factor = 0.023420 <br>
-Pressure Loss = 15.34 psi 1.05 bar
+Pressure Loss = 15.34 psi 1.05 bar || 15342.69 psi 1057.83 bar
 </p>
 
 <b>6. DP – CASING ANNULAR PRESSURE DROP</b>
@@ -97,7 +97,7 @@ Velocity = 141.86 ft/min 43.24 m/min <br>
 Effective viscosity = 131.22 cP <br>
 Reynolds Number = 927.04 <br>
 Friction Factor = 0.025869 <br>
-Pressure Loss = 178.44 psi 12.30 bar
+Pressure Loss = 178.44 psi 12.30 bar || 178446.12 psi 12303.40 bar
 </p>
 
 <h3 align="">Pressure Losses</h3>
