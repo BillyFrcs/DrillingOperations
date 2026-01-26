@@ -113,5 +113,5 @@ Pressure Loss = 178.44 psi 12.30 bar || 178446.12 psi 12303.40 bar
                                                                       
 <p>
 Surface Pressure = 3000.00 psi </br>
-Bit Pressure Drop = 630.27 psi 43.42 bar -> low || 210867.91 psi 14538.77 bar -> high
+Bit Pressure Drop = 630.27 psi 43.42 bar <i>-> low</i> || 210867.91 psi 14538.77 bar <i>-> high</i>
 </p>
