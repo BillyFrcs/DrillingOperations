@@ -3,3 +3,8 @@ def feetToMeters(feet):
 
 def inchToFeet(inch):
     return inch / 12.0
+
+def psiToBar(psi):
+    return psi / 14.5038
+
+print(psiToBar(1422))
