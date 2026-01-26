@@ -76,7 +76,11 @@ print(f"Friction Factor = {fp}")
 Pressure loss:
 Pp (psi) = ((fp * Vp2 * ρ) / (92916 * D)) * Lm
 '''
+# Pp_psi = ((0.006025 * math.pow(560.23, 2) * 12.8) / (92916 * 3.826)) * 610
+
 Pp_psi = ((0.006025 * math.pow(560.23, 2) * 12.8) / (92916 * 3.826)) * 610
+
+# Pp_psi = (0.006025 * 313857.65 * 12.8) / (92916 * 3.826) * 610 # API
 
 bar = psiToBar(Pp_psi)
 
