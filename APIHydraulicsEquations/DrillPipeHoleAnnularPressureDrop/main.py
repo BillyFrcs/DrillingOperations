@@ -60,7 +60,7 @@ print(f"Friction factor = {fa}")
 Pressure loss:
 Pa (psi) = ((fa * Vp2 * ρ) / (92916 * (D2-D1))) * Lm
 '''
-Pa_psi = ((0.02342 * math.pow(151.47, 2) * 12.8) / (92.916 * (8.625 - 4.5))) * 855
+Pa_psi = ((0.02342 * math.pow(151.47, 2) * 12.8) / (92916 * (8.625 - 4.5))) * 855
 
 bar = psiToBar(Pa_psi)
 
