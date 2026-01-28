@@ -13,7 +13,7 @@ DP - 4"1/2 16.6 lb/ft, ID = 3.826 inch <br>
 Length = 11.641 ft <br>
 
 Annular 9"5/8 x 4"1/2 DP <br>
-Length = 10.396 ft <br>
+Length = 10.786 ft <br>
 
 9"5/8 @ 10.396 ft <br>
 ID = 8.535 inch <br>
@@ -27,7 +27,7 @@ Length = 390 ft <br>
 Annular hole x 7” DC <br>
 Length = 390 ft <br>
 
-MD/TVD @ 12.031 ft <br>
+MD/TVD @ 12.031 ft 3667 m <br>
 
 Bit/Hole Size = 8 5/8 inch
 
@@ -43,7 +43,7 @@ Bit/Hole Size = 8 5/8 inch
 
 Θ300 = PV + YP = 34 <br>
 Θ600 = Θ300 + PV = 34 + 19 = 53 <br>
-Θ100 = Θ300 – (2*PV/3) = 34 - 12.6 = 21.4
+Θ100 = Θ300 – (2 * PV  / 3) = 34 - (2 * 19 / 3) = 21.33
 
 <p>API annular hydraulics formulae use the 100-RPM VG meter reading. If six-speed mud viscometer data is available, use the 100-RPM reading</p>
 
@@ -98,7 +98,7 @@ Pressure Loss = 377.52 psi 26.02 bar
 <b>4. DC – HOLE ANNULAR PRESSURE DROP</b>
 <p>
 Pipe "n" and "K" values: <br>
-Np = 0.27 <br>
+Np = 0.275 <br>
 Kp = 26.10
 </p>
 
@@ -114,7 +114,7 @@ Pressure Loss = 16.65 psi 1.14 bar
 <b>5. DP – HOLE ANNULAR PRESSURE DROP</b>
 <p>
 Pipe "n" and "K" values: <br>
-Np = 0.27 <br>
+Np = 0.275 <br>
 Kp = 26.10
 </p>
 
@@ -130,7 +130,7 @@ Pressure Loss = 15.34 psi 1.05 bar
 <b>6. DP – CASING ANNULAR PRESSURE DROP</b>
 <p>
 Pipe "n" and "K" values: <br>
-Np = 0.27 <br>
+Np = 0.275 <br>
 Kp = 26.10
 </p>
 
