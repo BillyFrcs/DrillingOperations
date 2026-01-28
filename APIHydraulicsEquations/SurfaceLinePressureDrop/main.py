@@ -27,28 +27,28 @@ print(f"Kp = {Kp}") # 3.21
 
 print("\n")
 
+print('Surface Connection:')
+
 '''
-Surface Connection:
 Velocity: Vp
 (ft/min) = 24.48 x Q (gpm) / D2 (in.) = 24.48 x 335 / 3.826
 = ... ft/min ...m/min
+'''
+velocity_vp_ft = 24.48 * 335 / math.pow(3.826, 2) # or 3.826 ** 2
 
+velocity_vp_m = feetToMeters(velocity_vp_ft)
+
+print(f"Velocity = {velocity_vp_ft} ft/min {velocity_vp_m} m/min") # 560.23
+
+'''
 Effective viscosity =
 μep (cP)
 = 100 * Kp * {(1.6 * Vp)/D)}(np-1) * {(3np + 1)/(4 * np)}np
 = ... cP
 '''
-
-ft = 24.48 * 335 / math.pow(3.826, 2) # or 3.826 ** 2
-
-m = feetToMeters(ft)
-
 Ev = 100 * 3.21 * ((math.pow((1.6 * 560.23) / 3.826, 0.64 - 1))) * math.pow((3 * 0.64 + 1) / (4 * 0.64), 0.64) # corrected formula
 
 # Ev = 100 * 3.21 * ((1.6 * 560.23) / 3.826) ** (0.64 - 1) * ((3 * 0.64 + 1) / (4 * 0.64)) ** 0.64 # conventional formula
-
-print('Surface Connection:')
-print(f"Velocity = {ft} ft/min {m} m/min") # 560.23
 
 print(f"Effective Viscosity = {Ev} cP") # 76.94
 
@@ -65,12 +65,11 @@ print(f"Reynolds Number = {NRep}")
 Friction Factor:
 fp = {(log n + 3.93)/50} / [NRep]{(1.75-log np)/7)}
 '''
-# issue
-fp = ((math.log10(0.64) + 3.93) / 50) / math.pow(8.667, 1.75 - math.log10(0.64) / 7)
+fp = ((math.log10(0.64) + 3.93) / 50) / math.pow(8667, (1.75 - math.log10(0.64)) / 7)
 
-# fp = (((math.log10(0.64)) + 3.93) / 50) / 8.667 ** ((1.75 - math.log10(0.64)) / 7)
+# fp = (((math.log10(0.64)) + 3.93) / 50) / 8667 ** ((1.75 - math.log10(0.64)) / 7)
 
-print(f"Friction Factor = {fp}")
+print(f"Friction Factor = {fp:.6f}")
 
 '''
 Pressure loss:
