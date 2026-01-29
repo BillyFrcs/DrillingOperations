@@ -13,13 +13,11 @@ print("DRILL PIPE PRESSURE DROP")
 3.32 * log (Θ600 / Θ300)
 5.11 * log (Θ600) / 1022 np or 5.11 * Θ600 / 1022 np
 '''
-Np = 3.32 * math.log10(34 / 53)
+np = 3.32 * math.log10(34 / 53)
 Kp = 5.11 * 53 / math.pow(1022, 0.64)
 
-# Kp = 5.11 * math.log10(53) / (1022 * 0.64)
-
 print('Pipe "n" and "K" values:')
-print(f"Np = {Np}") # 0.64
+print(f"np = {abs(np)}") # 0.64
 print(f"Kp = {Kp}") # 3.21
 
 print ("\n")
@@ -57,12 +55,11 @@ print(f"Reynolds Number = {NRep}")
 Friction Factor:
 fp = {(log n + 3.93)/50} / [Nrep]{(1.75-log np)/7)}
 '''
-# issue
-fp = ((math.log10(0.64) + 3.93) / 50) / math.pow(8.667, (1.75 - (math.log10(0.64)) / 7))
+fp = ((math.log10(0.64) + 3.93) / 50) / math.pow(8667, (1.75 - math.log10(0.64)) / 7)
 
 # fp = (((math.log10(0.64)) + 3.93) / 50) / 8.667 ** ((1.75 - math.log10(0.64)) / 7)
 
-print(f"Friction Factor = {fp}")
+print(f"Friction Factor = {fp:.6f}")
 
 '''
 Pressure loss:

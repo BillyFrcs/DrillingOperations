@@ -46,13 +46,13 @@ NRea = (15.467 * Va x (D2 – D1) x ρ) / μea
 '''
 NRea = (15.467 * 322.9 * (8.625 - 7) * 12.8) / 35.48
 
-print(f"Reynolds number = {NRea}")
+print(f"Reynolds number = {NRea:.6f}")
 
 '''
 Friction factor:
 fa = {(log n + 3.93)/50} / [NRep]{(1.75-log na)/7)}
 '''
-fa = ((math.log10(0.275) + 3.93) / 50) / math.pow(2928.70, ((1.75 - math.log10(0.275)) / 7))
+fa = ((math.log10(0.275) + 3.93) / 50) / math.pow(2928.70, (1.75 - math.log10(0.275)) / 7)
 
 print(f"Friction factor = {fa}")
 

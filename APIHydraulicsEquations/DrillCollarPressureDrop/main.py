@@ -13,13 +13,11 @@ print("DRILL COLLAR PRESSURE DROP")
 3.32 * log (Θ600 / Θ300)
 5.11 * log (Θ600) / 1022 np or 5.11 * Θ600 / 1022 np
 '''
-Np = 3.32 * math.log10(34 / 53)
+np = 3.32 * math.log10(34 / 53)
 Kp = 5.11 * 53 / math.pow(1022, 0.64)
 
-# Kp = 5.11 * math.log10(53) / (1022 * 0.64)
-
 print('Pipe "n" and "K" values:')
-print(f"Np = {Np}") # 0.64
+print(f"Np = {abs(np)}")# 0.64
 print(f"Kp = {Kp}") # 3.21
 
 print ("\n")
@@ -54,10 +52,9 @@ print(f"Reynolds Number = {NRep}")
 
 ''' 
 Friction Factor:
-fp = {(log n + 3.93)/50} / [Nrep]{(1.75-log np)/7)}
+fp = {(log n + 3.93)/50} / [NRep]{(1.75-log np)/7)}
 '''
-# issue
-fp = ((math.log10(0.64) + 3.93) / 50) / math.pow(26144, ((1.75 - math.log10(0.64)) / 7))
+fp = ((math.log10(0.64) + 3.93) / 50) / math.pow(26144, (1.75 - math.log10(0.64)) / 7)
 
 # fp = (((math.log10(0.64)) + 3.93) / 50) / 26144 ** ((1.75 - math.log10(0.64)) / 7)
 
@@ -67,9 +64,9 @@ print(f"Friction Factor = {fp}")
 Pressure loss:
 Pp (psi) = ((fp * Vp2 * ρ) / (92916 * D)) * Lm
 '''
-Pp_psi = ((0.006025 * math.pow(1619.91, 2) * 12.8) / (92916 * 2.25)) * 390
+Pp_psi = ((0.004434 * math.pow(1619.91, 2) * 12.8) / (92916 * 2.25)) * 390
 
-# Pp_psi = ((0.006025 * math.pow(1619.91, 2) * 12.8) / (92.916 * 2.25)) * 390
+# Pp_psi = ((0.006025 * math.pow(1619.91, 2) * 12.8) / (92916 * 2.25)) * 390
 
 bar = psiToBar(Pp_psi)
 
